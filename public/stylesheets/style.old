@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #FFF0F5;
+}
+
+h1 {
+  font-family:Verdana;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.des_web {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 1.2rem;
+}
+
+.barra_i {
+  height: auto;
+}
+
+.img_container {
+  display: flex;
+  margin-bottom: 2vh;
+  margin: auto;
+}
+
+@keyframes shadow-pop-tr {
+  0% {
+    -webkit-filter: drop-shadow(1px 1px 1px #222222);
+            filter: drop-shadow(1px 1px 1px #222222);
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+            filter: drop-shadow(5px 5px 5px #222222);
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
+
+.photo {
+  width: 50vw;  
+  margin: auto;
+  border-radius: 50%;
+  animation-name: shadow-pop-tr;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.menu_container {
+  display: none;
+}
+
+.content {
+  height: 100vh;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+@keyframes pbar {
+  from{background-position: right}
+  to{background-position: left}
+}
+
+.pbar {
+  margin: 0px 1rem 0px 1rem;
+  border-radius: 10px;
+  background: linear-gradient(to left, #FFD8E5 65%, #404040 65%) right;
+  background-size: 200%;
+  animation-name: pbar;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+}
+
+.formation {
+  margin: 5vw 5vw;
+}
+
+.formation ul li{
+  margin-top: 0.5rem;
+  margin-right: 0.5rem;
+  text-align: justify;
+}
+
+.resumen {
+  margin: 1.5rem 1.5rem;
+  text-align: justify;
+}
+
+.item {
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 20px;
+  background-color: #FFD8E5;
+  border: solid #FFD8E5 1px;
+  padding: 0.25rem;
+}
+
+.item i{
+  font-size: 1.6rem;
+  color: #474747;
+}
+
+.item p{
+  color: #474747;
+}
+
+@media (min-width: 426px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .barra_i {
+    grid-column: 1;
+    height: 100vh;
+  }
+
+  .photo {
+    width: 20vw;
+  }
+
+  .menu_container {
+    display: block;
+    align-items: center;
+  }
+
+  .content {
+    background-color: blueviolet;
+    grid-column: 2;
+  }
+}

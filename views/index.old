@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<%- include("partials/head") %>
+
+  <body>
+    <div class="barra_i">
+      <h1>Pablo Romano</h1>
+      <h2 class="des_web">Desarrollador Web</h2>
+      <div class="img_container">
+        <img class="photo" src="/images/75295369_671274936773933_125850768216960195_n-removebg-preview.png" alt="">
+      </div>
+      <div class="menu_container">
+        <h2>Home</h2>
+        <h2>Info</h2>
+        <h2>Skills</h2>
+        <h2>Portfolio</h2>
+        <h2>About Me</h2>
+        <h2>Contact Me</h2>
+      </div>
+    </div>
+    <div class="content">
+      <div class="skills">
+        <div>
+          <h3>Javascript</h3>
+          <div class="pbar">75%</div>
+        </div>
+        <div>
+          <h3>HTML</h3>
+          <div class="pbar">75%</div>
+        </div>
+        <div>
+          <h3>CSS</h3>
+          <div class="pbar">75%</div>
+        </div>
+        <div>
+          <h3>Ingles</h3>
+          <div class="pbar">75%</div>
+        </div>
+      </div>
+      <div class="formation">
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fa-solid fa-scroll"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis metus orci, malesuada eget posuere quis, convallis non quam. Sed eleifend sit amet mi et imperdiet.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-scroll"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis metus orci, malesuada eget posuere quis, convallis non quam. Sed eleifend sit amet mi et imperdiet.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-scroll"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis metus orci, malesuada eget posuere quis, convallis non quam. Sed eleifend sit amet mi et imperdiet.</li>
+          <li><span class="fa-li"><i class="fa-solid fa-scroll"></i></span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis metus orci, malesuada eget posuere quis, convallis non quam. Sed eleifend sit amet mi et imperdiet.</li>
+        </ul>
+      </div>
+      <div class="portfolio">
+
+      </div>
+      <div class="resumen">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ornare vitae mauris vitae porta. Duis in
+          elit vitae elit rutrum posuere. Suspendisse euismod purus nulla, et varius urna aliquet sit amet. Proin
+          dapibus sem sit amet eros efficitur, id fringilla metus ultricies. Proin varius nunc urna, quis lacinia felis
+          sollicitudin in. Sed auctor volutpat tincidunt. Sed sed vehicula lorem. Cras gravida, libero quis fringilla
+          facilisis, lectus ex aliquam mauris, at pellentesque ex ligula ut tellus. Vivamus in placerat mauris, sit amet
+          placerat sem. Praesent et ex ante. Phasellus vitae fermentum ipsum. Fusce vitae purus nibh. Quisque enim
+          dolor, convallis vel suscipit ac, dictum at felis. Mauris dictum viverra lacinia. Duis sodales sapien ut
+          sapien dictum consequat.</p>
+      </div>
+      <div class="contact">
+        <div class="item">
+          <i class="fa-solid fa-envelope"></i>
+          <p>romae047@gmail.com</p>
+        </div>
+        <div class="item">
+          <i class="fa-solid fa-phone"></i>
+          <p>+54 3496-514100</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-linkedin"></i>
+          <p>www.linkedin.com/in/pablo-romano047</p>
+        </div>
+        <div class="item">
+          <i class="fa-brands fa-github"></i>
+          <p>https://github.com/Pabl0Romano</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
